@@ -12,6 +12,7 @@ tqdm = "*"
 openai = "*"
 seaborn = "*"
 matplotlib = "*"
+torch = "*"
 
 [dev-packages]
 
