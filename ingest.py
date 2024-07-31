@@ -6,5 +6,5 @@ def ingest_data ():
     url = f'{base_url}/{relative_url}?raw=1'
     df = pd.read_csv(url)
     df = df.iloc[:300]
-    df.to_csv("top300.csv")
+    df.to_csv("top300.csv",index=False)
     print("done")
